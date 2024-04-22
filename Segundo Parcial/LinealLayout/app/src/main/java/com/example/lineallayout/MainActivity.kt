@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
         btnAccept.setOnClickListener {
             btnAccept.isEnabled = false      //El boton se deshabilita
             btnAccept.text = ""             //El texto del boton desaparece
-            textview1.visibility = View.INVISIBLE
             checkEmptyTextViews()       //Se manda a llamar a la funcion
         }
     }
@@ -53,15 +52,17 @@ class MainActivity : AppCompatActivity() {
 
         if (isTextView1Empty && isTextView2Empty && isTextView3Empty && isTextView4Empty) {
             //En caso de tener texto se marca como valido
-            error.visibility = View.INVISIBLE
+            textview1.text = "Sesion Iniciada"
+            error.visibility = View.GONE
             check.visibility = View.VISIBLE
-            name.visibility = View.INVISIBLE
-            email.visibility = View.INVISIBLE
-            phone.visibility = View.INVISIBLE
-            lastname.visibility = View.INVISIBLE
+            name.visibility = View.GONE
+            email.visibility = View.GONE
+            phone.visibility = View.GONE
+            lastname.visibility = View.GONE
         } else {
             //En caso de no tener texto se marca como invalido
-            check.visibility = View.INVISIBLE
+            textview1.text = "Datos incompletos"
+            check.visibility = View.GONE
             error.visibility = View.VISIBLE
         }
     }
