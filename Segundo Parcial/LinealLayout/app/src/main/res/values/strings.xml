@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LinealLayout</string>
+    <string name="text1">INICIAR SESIÓN</string>
+    <string name="add_text">Ingrese su nombre: </string>
+    <string name="add_text1">Ingrese sus Apellidos: </string>
+    <string name="add_text2">Ingrese Celular: </string>
+    <string name="add_text3">Ingrese Correo electronico: </string>
+    <string name="accept">ACEPTAR</string>
+</resources>
