@@ -55,6 +55,10 @@ class MainActivity : AppCompatActivity() {
             //En caso de tener texto se marca como valido
             error.visibility = View.INVISIBLE
             check.visibility = View.VISIBLE
+            name.visibility = View.INVISIBLE
+            email.visibility = View.INVISIBLE
+            phone.visibility = View.INVISIBLE
+            lastname.visibility = View.INVISIBLE
         } else {
             //En caso de no tener texto se marca como invalido
             check.visibility = View.INVISIBLE
