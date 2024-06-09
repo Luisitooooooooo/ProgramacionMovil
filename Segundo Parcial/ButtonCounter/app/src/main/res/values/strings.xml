@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contador Botón</string>
+    <string name="español">BUTTON COUNTER</string>
+    <string name="start">PRESS</string>
+    <string name="text">Veces que ha sido presionado el botón: </string>
+    <string name="defaul">0</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name ="image_desc">Descripcion de Imagen</string>
+    <string name="text1">Carrusel de wallpapers</string>
+</resources>
