@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         val items = listOf(
             CarouselAdapter.CarouselItem(R.drawable.image1, "Wallpaper Gohan"),
             CarouselAdapter.CarouselItem(R.drawable.image2, "Wallpaper Fight"),
-            CarouselAdapter.CarouselItem(R.drawable.image3, "Wallpaper Aura")
+            CarouselAdapter.CarouselItem(R.drawable.image3, "Wallpaper Goku"),
+            CarouselAdapter.CarouselItem(R.drawable.image4, "Wallpaper Aura")
         )
 
         viewPager.adapter = CarouselAdapter(items)
